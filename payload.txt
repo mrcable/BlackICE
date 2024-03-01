@@ -11,7 +11,7 @@ DELAY 300
 STRING powershell
 ENTER
 DELAY 400
-STRING Invoke-WebRequest -Uri https://raw.githubusercontent.com/mrcable/BlackICE/main/wp3805134.jpg -OutFile thehoff.jpg
+STRING Invoke-WebRequest -Uri https://raw.githubusercontent.com/mrcable/BlackICE/main/wp3805134.jpg -OutFile %userprofile%/thehoff.jpg
 ENTER
 DELAY 100
 REM STRING exit
